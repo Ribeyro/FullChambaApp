@@ -1,16 +1,27 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# 📦 Node modules
 node_modules/
 
-# Expo
+# 🚫 Entorno de Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
+# 🔒 Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# 🛠️ Archivos temporales de Metro
+.mexpo
+.mexpo-shared
+.mexpo-config
+.mexpo-cache
+.mexpo-test-cache
+.metro-cache/
+.metro-health-check*
+
+# 📱 Archivos nativos no versionables
 *.orig.*
 *.jks
 *.p8
@@ -18,20 +29,29 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
-# Metro
-.metro-health-check*
-
-# debug
+# 🐞 Archivos de debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# 🧼 macOS
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
-
-# typescript
+# ⚙️ TypeScript (si en algún momento lo usaste)
 *.tsbuildinfo
+
+# 💅 IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+
+# 💾 Archivos de logs
+*.log
+
+# 💻 Archivos de sistema
+Thumbs.db
+Desktop.ini
