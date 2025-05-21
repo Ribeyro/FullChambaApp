@@ -36,34 +36,61 @@ FullChamba/
     ├── screens/        # Vistas o pantallas principales (Login, Home, etc.)
     ├── utils/          # Funciones auxiliares (helpers, formateadores)
     └── App.js          # Entrada lógica principal, integra navegación
-⚙️ Configuración e instalación
-1. Clona el repositorio
-bash
-Copiar
-Editar
+```
+
+---
+
+## ⚙️ Configuración e instalación
+
+### 1. Clona el repositorio
+
+```bash
 git clone https://github.com/tu-usuario/FullChamba.git
 cd FullChamba
-2. Instala las dependencias
-bash
-Copiar
-Editar
-npm install
-3. Crea tu archivo .env
-Copia el archivo .env.example:
+```
 
-bash
-Copiar
-Editar
+### 2. Instala las dependencias
+
+```bash
+npm install
+```
+
+### 3. Crea tu archivo `.env`
+
+Copia el archivo `.env.example`:
+
+```bash
 cp .env.example .env
+```
+
 Y personaliza tus variables como:
 
-env
-Copiar
-Editar
+```env
 API_URL=http://localhost:3000/api
-4. Ejecuta la app
-bash
-Copiar
-Editar
+```
+
+### 4. Ejecuta la app
+
+```bash
 npx expo start
-Esto abrirá Metro Bundler. Desde allí puedes escanear el QR con la app Expo Go en tu dispositivo móvil.
+```
+
+Esto abrirá Metro Bundler. Desde allí puedes escanear el QR con la app **Expo Go** en tu dispositivo móvil.
+
+---
+
+## 🧪 Estado actual del proyecto
+
+- [x] Estructura modular implementada
+- [x] Soporte para variables de entorno
+- [x] Navegación básica (Login → Home)
+- [ ] Integración con backend
+- [ ] Registro y autenticación de usuarios
+- [ ] Gestión de retos, postulaciones y recompensas
+
+---
+
+## 🧠 Autor
+
+Desarrollado por **Full Chamba**
+
